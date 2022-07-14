@@ -1,0 +1,5 @@
+FROM openjdk:17
+COPY /home/hema/new_pro /tmp
+WORKDIR /tmp
+ENTRYPOINT ["java","helloworld"]
+
